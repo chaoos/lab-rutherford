@@ -105,7 +105,7 @@ The used apparatus is a cylindrical vacuum chamber where on one side there is a 
 \captionsetup{singlelinecheck=off}
 \centering
 \includegraphics[width=1.0\textwidth]{img/setup.jpg}
-\caption[blubb]{Image of the experimental setup. The cylindrical glass element is the vacuum tube. $1$ is the pump to evacuate the chamber, $2$ is the mechanic rod to adjust the distance of the source to the gold foil from outside the chamber, $3$ is the $^{241}Am$ source emitting the $\alpha$-particles, $4$ is the circle element with the gold foil ring, $5$ is the surface barrier nuclear particle detector, $6$ points to the cable leading from the detector to the preamplifier and $7$ points to the small aperture in the center of $4$. This aperture can be opened by turning the mechanic rod $2$. Source: Authors' own.}
+\caption[blubb]{Image of the experimental setup. The cylindrical glass element is the vacuum tube. ($1$) is the pump to evacuate the chamber, ($2$) is the mechanic rod to adjust the distance of the source to the gold foil from outside the chamber, ($3$) is the $^{241}Am$ source emitting the $\alpha$-particles, ($4$) is the circle element with the gold foil ring, ($5$) is the surface barrier nuclear particle detector, ($6$) points to the cable leading from the detector to the preamplifier (not in picture) and ($7$) points to the small aperture in the center of ($4$). This aperture can be opened by turning the mechanic rod ($2$) from outside the vaccum tube (not in picture to the left). Source: Authors' own.}
 \label{fig:setup}
 \end{figure}
 
@@ -235,7 +235,7 @@ According to the $\chi^2$-Test, the value of $\chi^2 = S = [[chi_sq]]$, which th
 \chi_r^2 = \frac{S}{\nu} = [[chi_r_sq]] < 1.
 \end{equation}
 
-$\chi_r^2$ is very close to $1$, but $<1$. This suggests that the linear interpolation of the data is justified and the quality of the measurement is sufiicient. This leads to a probability of error of $\alpha = [[alpha]] \, \%$ accoring to table $A1$ from the instruction sheet \cite{inst2007}. The table was linearly interpolated for al values of $\alpha$ in the row $\nu = 10$.
+$\chi_r^2$ is very close to $1$, but $<1$. This suggests that the linear interpolation of the data is justified and the quality of the measurement is sufiicient. This leads to a probability of error of $\alpha = [[alpha]] \, \%$ accoring to table $A1$ from the instruction sheet \cite{inst2007}. The table was linearly interpolated for all values of $\alpha$ in the row $\nu = 10$.
 
 \subsection{Errors}
 
@@ -292,6 +292,13 @@ Even nowadays Rutherford's scattering formula (and the inherent model of the ato
   \textit{Rutherford-Streuung - Instruction sheet},
   September 1999,
   \url{https://vp.phys.ethz.ch/Experimente/pdf/Rutherford_01_2007.pdf},
+
+\bibitem{github}
+  R. Gruber
+  \textit{Source code for the lab report Rutherford scattering},
+  2018,
+  GitHub repository,
+  \url{https://github.com/chaoos/lab-rutherford}.
 
 \end{thebibliography}
 
@@ -390,6 +397,7 @@ The correction factors $\frac{\sigma_2}{\sigma_1}$ for both $\theta_{min}$ and $
 
 All measured data can be found underneath.
 \newline
+All code used in this report can be found in the GitHub repository \cite{github}.
 
 \begin{table}[H]
 \centering
